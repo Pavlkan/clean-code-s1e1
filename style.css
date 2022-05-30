@@ -22,9 +22,11 @@ body {
 }
 
 @media (max-width:768px) {
+
   .link-container { 
     text-align: center;
   }
+  
 }
 
 .main-wrapper {
