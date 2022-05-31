@@ -45,7 +45,7 @@
   display: flex;
 }
 
-.tasks__list {
+.tasks {
   margin: 0;
   padding: 0px;
 }
@@ -157,22 +157,22 @@
 
 /* Completed */
 
-.tasks__list.tasks__list_complete .element__label {
+.tasks.tasks__list_complete .element__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.tasks__list .tasks__element .input__text {
+.tasks .tasks__element .input__text {
   display: none
 }
 
-.tasks__list .tasks__element_edit .input__text {
-  display:inline-block;
+.tasks .tasks__element_edit .input__text {
+  display: inline-block;
   width: 224px
 }
 
-.tasks__list .tasks__element_edit .element__label {
+.tasks .tasks__element_edit .element__label {
   display: none;
 }

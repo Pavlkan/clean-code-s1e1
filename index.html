@@ -19,8 +19,8 @@
         </div>
       </section>
       <h3 class="title">Todo</h3>
-      <ul class="tasks tasks__list" id="incomplete-tasks">
-        <li class="tasks__element element">
+      <ul class="tasks" id="incomplete-tasks">
+        <li class="tasks__element">
           <input class="input input__checkbox" type="checkbox">
           <article class="element__label">Pay Bills</article>
           <input class="input input__text" type="text">
@@ -29,7 +29,7 @@
             <img class="button-delite__icon" src="./remove.svg" alt="remove">
           </button>
         </li>
-        <li class="tasks__element tasks__element_edit element">
+        <li class="tasks__element tasks__element_edit">
           <input class="input input__checkbox" type="checkbox">
           <article class="element__label">Go Shopping</article>
           <input class="input input__text" type="text" value="Go Shopping">
@@ -40,10 +40,10 @@
         </li>
       </ul>
       <h3 class="title">Completed</h3>
-      <ul class="tasks tasks__list tasks__list_complete" id="completed-tasks">
-        <li class="tasks__element element">
+      <ul class="tasks tasks__list_complete" id="completed-tasks">
+        <li class="tasks__element">
           <input class="input input__checkbox" type="checkbox" checked>
-          <article cclass="element__label">See the Doctor</article>
+          <article class="element__label">See the Doctor</article>
           <input class="input input__text" type="text">
           <button class="button button_edit">Edit</button>
           <button class="button button_delete">
