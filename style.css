@@ -38,7 +38,7 @@
 .input__text {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-task__container {
@@ -142,7 +142,7 @@
 }
 
 .tasks__element > .input__text {
-  width: 226px
+  width: 226px;
 }
 
 .button.button_delete .button-delite__icon {
@@ -165,12 +165,12 @@
 /* Edit Task */
 
 .tasks .tasks__element .input__text {
-  display: none
+  display: none;
 }
 
 .tasks .tasks__element_edit .input__text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .tasks .tasks__element_edit .element__label {
